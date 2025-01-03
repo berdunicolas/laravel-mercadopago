@@ -123,4 +123,12 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+
+    /**
+     * Mercado Pago
+     */
+
+    'mp_access_token' => env('MERCADOPAGO_ACCESS_TOKEN'),
+    'mp_public_key' => env('MERCADOPAGO_PUBLIC_KEY'),
+
 ];
